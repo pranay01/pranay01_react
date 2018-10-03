@@ -1,6 +1,6 @@
 import Layout from '../components/MyLayout.js'
 
-export default () => (
+const About =  () => (
     
       <Layout>
         <h2> What I am doing now? </h2>
@@ -34,3 +34,5 @@ export default () => (
     `}</style>
       </Layout>
   )
+
+  export default About

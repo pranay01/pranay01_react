@@ -12,6 +12,13 @@ const Header = () => (
         <Link href="/about">
           <a style={linkStyle}>About</a>
         </Link>
+        <Link href="/projects">
+          <a style={linkStyle}>Projects</a>
+        </Link><Link href="/books">
+          <a style={linkStyle}>Books</a>
+        </Link><Link href="/now">
+          <a style={linkStyle}>Now</a>
+        </Link>
         <style jsx>{`
         .nav { 
              background: #000;
